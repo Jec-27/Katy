@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY con fondo adaptable */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* FONDO */
+   background-image: url("/sanvanlentine_1/fondo1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background: rgba(94, 34, 34, 0.85); /* Fondo blanco con transparencia */
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 90%;
+    width: 400px;
+}
+
+#extraBtn {
+    display: block;              /* permite centrarlo */
+    margin: 25px auto 0 auto;     /* centra horizontalmente */
+    padding: 12px 30px;
+    font-size: 18px;
+
+    background-color: transparent; /* fondo transparente */
+    color: #000;                  /* letras negras */
+
+    border: 2px solid #000;       /* borde negro elegante */
+    border-radius: 12px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#extraBtn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+
+/* GIF */
+#gifContainerImg {
+    width: 60%;
+    height: auto;
+}
+
+/* Botones generales */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Botón SÍ */
+#siBtn {
+    background-color: #009705;
+    color: white;
+    border: 2px solid #FFC0CB;
+    border-radius: 10px;
+}
+
+#siBtn:hover {
+    background-color: #053a03;
+}
+
+/* Botón NO */
+#noBtn {
+    background-color: #FF5733;
+    color: white;
+    border: 2px solid #FFC0CB;
+    border-radius: 10px;
+}
+
+#noBtn:hover {
+    background-color: #641e0d;
+}
+
+/* Texto animado */
+#messageContainer {
+    font-size: 30px;
+    color: #FF0000;
+    text-shadow: 2px 2px 4px #000;
+    animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
