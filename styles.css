@@ -12,7 +12,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     /* FONDO */
-   background-image: url("/sanvanlentine_1/fondo1.jpeg");
+   background-image: url("/fondo1.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
