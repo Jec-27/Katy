@@ -11,11 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* FONDO */
-   background-image: url("/katy/fondo1.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
 }
 
