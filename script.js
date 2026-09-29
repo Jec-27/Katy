@@ -29,7 +29,7 @@ document.getElementById('siBtn').addEventListener('click', function () {
     // Mostrar mensaje
     const message = document.getElementById('messageContainer');
     message.style.display = 'block';
-    message.innerHTML = 'jajaja 💖';
+    message.innerHTML = 'jajaja :D';
 
     /* Secuencia de gifs felices */
     setTimeout(() => {
